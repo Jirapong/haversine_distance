@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = Haversine::VERSION
   s.authors     = ["Jirapong Nanta"]
   s.email       = ["jirapong.nanta@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.homepage    = "https://github.com/Jirapong/Haversine"
+  s.summary     = "Haversine is a formula to calculate the great-circle distance between two points"
+  s.description = "Because Earth is not flat!"
 
   s.rubyforge_project = "haversine"
 
