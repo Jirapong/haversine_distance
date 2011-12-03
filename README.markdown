@@ -14,25 +14,25 @@ You can totally install it as a Gem
 
 Haversine is readily available as a Ruby gem.
 
-  $ [sudo] gem install haversine
+    $ [sudo] gem install haversine
 
 The Haversine source is available at GitHub:
 
-  $ git clone git://github.com/jirapong/haversine.git
+    $ git clone git://github.com/jirapong/haversine.git
 
 Feedback & Patch are welcome.
 
 And how to use
 ------------------------------------
-  require 'haversine'
+    require 'haversine'
 
-  lat_a = 51.885
-  lng_a = 0.235
+    lat_a = 51.885
+    lng_a = 0.235
 
-  lat_b = 49.008
-  lng_b = 2.549
+    lat_b = 49.008
+    lng_b = 2.549
 
-  km = Haversine.distance(lat_a, lng_a, lat_b, lng_b);
+    km = Haversine.distance(lat_a, lng_a, lat_b, lng_b);
 
 Credits
 -------------------------------------------------------
