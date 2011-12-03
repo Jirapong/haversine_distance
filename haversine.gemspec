@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "haversine/version"
 
 Gem::Specification.new do |s|
-  s.name        = "haversine"
+  s.name        = "haversine_distance"
   s.version     = Haversine::VERSION
   s.authors     = ["Jirapong Nanta"]
   s.email       = ["jirapong.nanta@gmail.com"]
