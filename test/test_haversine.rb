@@ -1,17 +1,29 @@
 require "test/unit"
 require "haversine"
+# testing against with http://www.movable-type.co.uk/scripts/latlong.html
 
 class HaversineTest < Test::Unit::TestCase
 
   def test_distance_in_km
-    lat_a = -104.88544
-    lng_a = 39.06546
+    lat_a = 51.885
+    lng_a = 0.235
 
-    lat_b = -104.80
-    lng_b = 39.06546
+    lat_b = 49.008
+    lng_b = 2.549
 
     km = Haversine.distance(lat_a, lng_a, lat_b, lng_b);
-    assert_equal(100, km);
+    assert_equal(359.3823602146921, km);
+  end
+
+  def test_distance_in_mi
+    lat_a = 51.885
+    lng_a = 0.235
+
+    lat_b = 49.008
+    lng_b = 2.549
+
+    mi = Haversine.distance_in_mile(lat_a, lng_a, lat_b, lng_b);
+    assert_equal(223.5599711472713, mi);
   end
 
 end
