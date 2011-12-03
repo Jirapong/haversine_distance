@@ -11,8 +11,8 @@ class HaversineTest < Test::Unit::TestCase
     lat_b = 49.008
     lng_b = 2.549
 
-    km = Haversine.distance(lat_a, lng_a, lat_b, lng_b);
-    assert_equal(359.3823602146921, km);
+    km = Haversine.distance(lat_a, lng_a, lat_b, lng_b)
+    assert_equal(359.3823602146921, km)
   end
 
   def test_distance_in_mi
@@ -22,8 +22,8 @@ class HaversineTest < Test::Unit::TestCase
     lat_b = 49.008
     lng_b = 2.549
 
-    mi = Haversine.distance_in_mile(lat_a, lng_a, lat_b, lng_b);
-    assert_equal(223.5599711472713, mi);
+    mi = Haversine.distance_in_mile(lat_a, lng_a, lat_b, lng_b)
+    assert_equal(223.5599711472713, mi)
   end
 
 end

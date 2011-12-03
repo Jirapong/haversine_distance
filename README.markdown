@@ -14,7 +14,7 @@ You can totally install it as a Gem
 
 Haversine is readily available as a Ruby gem.
 
-    $ [sudo] gem install haversine
+    $ [sudo] gem install haversine_distance
 
 The Haversine source is available at GitHub:
 
