@@ -12,6 +12,15 @@ class Float
   end
 end
 
+class Fixnum
+  RADIAN_PER_DEGREE = Math::PI / 180.0
+
+  def toRad
+    return self * RADIAN_PER_DEGREE
+  end
+end
+
+
 module Haversine
   EARTH_RADIUS_MI = 3963.19
   EARTH_RADIUS_KM = 6371.00

@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Haversine::VERSION
   s.authors     = ["Jirapong Nanta"]
   s.email       = ["jirapong.nanta@gmail.com"]
-  s.homepage    = "https://github.com/Jirapong/Haversine"
+  s.homepage    = "https://github.com/jirapong/haversine_distance"
   s.summary     = "Haversine is a formula to calculate the great-circle distance between two points"
   s.description = "Because Earth is not flat! km_distance = Haversine.distance(lat_a, lng_a, lat_b, lng_b)"
 
