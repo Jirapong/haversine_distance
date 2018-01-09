@@ -12,7 +12,7 @@ class Float
   end
 end
 
-class Fixnum
+class Integer
   RADIAN_PER_DEGREE = Math::PI / 180.0
 
   def toRad
