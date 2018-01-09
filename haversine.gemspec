@@ -9,7 +9,8 @@ Gem::Specification.new do |s|
   s.email       = ["jirapong.nanta@gmail.com"]
   s.homepage    = "https://github.com/jirapong/haversine_distance"
   s.summary     = "Haversine is a formula to calculate the great-circle distance between two points"
-  s.description = "Because Earth is not flat! km_distance = Haversine.distance(lat_a, lng_a, lat_b, lng_b)"
+  s.description = "Haversine is a formula to calculate the great-circle distance between two points. for instance. km_distance = Haversine.distance(lat_a, lng_a, lat_b, lng_b)"
+  s.license       = 'MIT'
 
   s.rubyforge_project = "haversine"
 
@@ -17,8 +18,4 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
 end
